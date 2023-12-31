@@ -1,14 +1,15 @@
-
-import './App.css'
-
+import "./App.css";
+import Header from "./components/Header";
 function App() {
-
-
   return (
     <>
-    <h1 className='font-bold'> Hello saf </h1>
+      <Header />
+      <section>
+        <div>Booking</div>
+        <div>Table</div>
+      </section>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
