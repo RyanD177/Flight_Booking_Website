@@ -11,7 +11,7 @@ export const makeBooking = (data) => {
 }
 
 
-export const deletBooking = (id) => {
+export const deleteBooking = (id) => {
 
     return {
         type: DELETE,

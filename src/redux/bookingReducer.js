@@ -10,7 +10,7 @@ export const bookingReducer = (state = initialState, action) => {
       return { data: newData };
 
     case DELETE:
-      const filterData = state.data.filter((data) => d.id !== action.payload);
+      const filterData = state.data.filter((data) => data.id !== action.payload);
       return { data: newData };
 
     default:

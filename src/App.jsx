@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
+import Table from "./components/table";
 
 import Booking from "./components/Booking";
 
@@ -9,7 +10,7 @@ function App() {
       <Header />
       <section className="h-screen">
      <Booking />
-        <div>Table</div>
+      <Table />
       </section>
     </div>
   );
